@@ -31,7 +31,7 @@ int main()
      
     if(winner)
     {
-        printf("\n *** Congratulations Dear %s ,\n     You have won the game . !!!!",((winner=='X')?user1:user2));
+        printf("\n *** Congratulations Dear user %s ,\n     You have won this game . !!!!",((winner=='X')?user1:user2));
         goto end;
     }
  
